@@ -29,6 +29,7 @@ def rc_time (pin_to_circuit):
 
     return count
 
+"""
 #Catch when script is interupted, cleanup correctly
 try:
     # Main loop
@@ -38,3 +39,4 @@ except KeyboardInterrupt:
     pass
 finally:
     GPIO.cleanup()
+"""
